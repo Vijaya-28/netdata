@@ -18,3 +18,8 @@ docker run -d --name=netdata \
   --cap-add SYS_PTRACE \
   --security-opt apparmor=unconfined \
   netdata/netdata
+
+## Access the dashboard
+Open your browser and go to
+http://localhost:19999
+
